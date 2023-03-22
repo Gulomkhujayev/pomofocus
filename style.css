@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #4295bf;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+    margin: 30px;
+}
+button {
+    font-size: 30px;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    color: #4295bf;
+}
+button:active{
+    color: crimson;
+}
+button:hover{
+    cursor: pointer;
+}
+p{
+    font-size: 30px;
+    color: #fff;
+}
