@@ -35,3 +35,20 @@ p{
     font-size: 30px;
     color: #fff;
 }
+.times{
+    width: 500px;
+    height: 400px;
+    font-size: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    width: 200px;
+    font-size: 40px;
+    border-radius: 10px ;
+    border: 1px solid transparent;
+    background:#FFF ;
+    color: #4295bc;
+    padding: 10px;
+}
