@@ -8,6 +8,7 @@ let seconds;
 let minute = 25;
 seconds = minute * 60;
 pomodoroTime.addEventListener("click", () => {
+    document.body.style.background = '#4295bf'
   if (startBtn.classList.contains("active")) {
     alert("are you sure?");
   }
@@ -17,6 +18,7 @@ pomodoroTime.addEventListener("click", () => {
   resetTime();
 });
 shortTime.addEventListener("click", () => {
+    document.body.style.background = '#54cd78'
   if (startBtn.classList.contains("active")) {
     alert("are you sure?");
   }
@@ -26,6 +28,7 @@ shortTime.addEventListener("click", () => {
   resetTime();
 });
 longTime.addEventListener("click", () => {
+    document.body.style.background = '#bb4949'
   if (startBtn.classList.contains("active")) {
     alert("are you sure?");
   }
